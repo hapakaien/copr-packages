@@ -16,7 +16,6 @@ stored in a content-addressable store.
 #-- INSTALL -------------------------------------------------------------------#
 %install
 mkdir -p %{buildroot}%{_bindir}
-strip --strip-all %{_sourcedir}/pnpm-linux-x64 
 install -m 755 %{_sourcedir}/pnpm-linux-x64 %{buildroot}%{_bindir}/pnpm
 
 #-- FILES ---------------------------------------------------------------------#
