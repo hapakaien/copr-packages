@@ -1,6 +1,6 @@
 Name: 		pnpm
 Version: 	7.18.2
-Release: 	0%{?dist}
+Release: 	1%{?dist}
 License:	MIT
 Summary: 	Fast, disk space efficient package manager
 Url: 		https://github.com/pnpm/pnpm
@@ -25,6 +25,9 @@ install -m 755 %{_sourcedir}/pnpm-linux-x64 %{buildroot}%{_bindir}/pnpm
 
 #-- CHANGELOG -----------------------------------------------------------------#
 %changelog
+* Sun Dec 18 2022 Ahmad Husen <hi@husen.id> 7.18.2-1
+- new package built with tito
+
 * Sun Dec 18 2022 A. Husen <hi@husen.id> - 7.18.2
 - Release v7.18.2
 
